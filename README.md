@@ -7,7 +7,7 @@ To complement the prior studies, we analyze how the bugs of two mainstream compi
 We collect 806 bug reports from 603 Github projects and manually inspected 219 commits whose messages explicitly mention the urls of compiler bug reports. For details, see [all_bugs.xlsx](https://github.com/Chandlerooo/CompilerWorkaround/blob/main/all_bugs.xlsx) for the whole set; [association.xlsx](https://github.com/Chandlerooo/CompilerWorkaround/blob/main/association.xlsx) for manually inspected result of selected bugs.
 ## Example
 We provide a list of commits and bug reports used as examples in our paper for easy access.
-<!-- Anchor for Table -->
+<!-- Anchor for Project -->
 | Project | Symptom | Workaround | Commit URL | Bugreport URL |
 |---------|---------|------------|------------|---------------|
 | Oblas   | rejects-valid | implementing methods | [d87584](https://github.com/sleepybishop/oblas/commit/d8758407869a6b0a2051c60509734220707a9ae6) | [Gcc91341](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=91341) |
